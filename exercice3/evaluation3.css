@@ -1,0 +1,37 @@
+*{
+    color: black;
+}
+body{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+}
+.div1{
+    flex: 1;
+    flex-direction: row;
+    margin-left: 450px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    font-size: 25px;
+}
+.div2{
+    flex: 1;
+    flex-direction: row;
+    margin-right: 1px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-size: 25px;
+}
+.button{
+    color: white;
+    background-color: grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    
+}
+form{
+    text-align: start;
+}

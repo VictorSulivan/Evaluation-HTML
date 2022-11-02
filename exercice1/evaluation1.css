@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+}
+.div1{
+    flex: 1;
+    background-color: red;
+    color: white;
+
+}
+.div2{
+    display:flex;
+    flex: 5;
+    flex-direction: column;
+}
+.div3{
+    display:flex;
+    flex: 4;
+    flex-direction: row-reverse;
+}
+.div4{
+    flex: 5;
+    flex-direction: column;
+    height: 700px;
+    
+}
+header{
+    flex:1;
+    background-color: greenyellow;
+}
+article{
+    background-color: white;
+    flex:4;
+    height: 500px;
+}
+aside{
+    background-color: beige;
+    flex:1;
+    flex-direction: column;
+}
+footer{
+    background-color: greenyellow;
+    flex: 1;
+    height: 300px;
+}
+a:hover{
+    background-color: rgb(255, 125, 125);
+}
+a{
+    color: currentColor;
+    text-decoration: none;
+}

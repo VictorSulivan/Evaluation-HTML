@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+}
+header{
+    flex:1;
+    background-color: greenyellow;
+}
+div{
+    display: flex;
+    flex: 3;
+}
+nav{
+    background-color: red;
+    flex: 1;
+    color: white;
+    order: 2;
+}
+aside{
+    flex: 1;
+    background-color: blue;
+    color: white;
+    order: 1;
+}
+article{
+    background-color: white;
+    color: red;
+    flex:4;
+}
+footer{
+    background-color: greenyellow;
+    flex: 1;
+    height: 300px;
+}
+a:hover{
+    background-color: rgb(255, 125, 125);
+}
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+p>article{
+    color: red;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.C5{
+    background-color: gray ;
+    color: black;
+    width: 60px;
+    font-size: 25px;
+    width: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    align-items:center;
+}
+.C4{
+    background-color: rgb(112, 86, 86) ;
+    color: black;
+    font-size: 25px;
+    width: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items:center;
+}
+.C3{
+    background-color: red ;
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 175px;
+    width: 300px;
+    align-items:center;
+}
+.C1{
+    background-color: orange;
+    color: black;
+    font-size: 25px;
+    width: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    align-items:center;
+}
+.C2{
+    color: black;
+    font-size: 25px;
+    width: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: orangered;
+    align-items:center;
+}
