@@ -1,37 +1,58 @@
 *{
     color: black;
 }
+html{
+    display: flex;
+}
 body{
     background-color: beige;
     display: flex;
-    flex-direction: row;
+    flex: 1;
+    flex-direction: column;
 }
 .div1{
     flex: 1;
     flex-direction: row;
-    margin-left: 450px;
-    margin-top: 300px;
-    margin-bottom: 300px;
-    font-size: 25px;
+    font-size: 35px;
+    position: relative;
+    top: 200px; left: 400px;
 }
 .div2{
     flex: 1;
-    flex-direction: row;
-    margin-right: 1px;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    font-size: 25px;
+    font-size: 15px;
+    position: relative;
+    top: -45px; left: 800px;
 }
 .button{
     color: white;
     background-color: grey;
-    margin-top: 30px;
-    margin-bottom: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     position: relative;
-    
+    top: 0px; left: 670px;
+    border-style : none;
+    border-left-style : none;
 }
 form{
     text-align: start;
+}
+header{
+    flex: 1;
+    background-color: white;
+    position: relative;
+    flex-direction: row;
+    order: 1;
+    
+}
+main{
+    flex: 15;
+    flex-direction: row;
+    order: 2;
+}
+footer{
+    flex: 5;
+    background-color: white;
+    order: 3;
 }
